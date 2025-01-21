@@ -1,0 +1,13 @@
+---
+BasedOnStyle: LLVM       # Base style (e.g., LLVM, Google, Chromium, Mozilla, WebKit)
+IndentWidth: 4           # Number of spaces per indentation level
+TabWidth: 4              # Number of spaces to represent a tab
+UseTab: Never            # Always use spaces instead of tabs
+BreakBeforeBraces: Attach # Place opening braces on the same line
+AllowShortFunctionsOnASingleLine: Empty # Keep short functions on a single line if their body is empty
+ColumnLimit: 100         # Max line width before wrapping
+SortIncludes: true       # Sort include statements
+SpacesInParentheses: false # No spaces inside parentheses
+PointerAlignment: Left   # Align pointers with the type (e.g., `int* ptr` vs `int *ptr`)
+DerivePointerAlignment: false # Do not automatically derive pointer alignment
+---
